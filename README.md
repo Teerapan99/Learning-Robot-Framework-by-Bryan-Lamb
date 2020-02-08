@@ -37,10 +37,14 @@ Run Script .bat file
       4.Change .txt extention to .bat
       5.Double Click the .bat file to excuete
       
-  Run Script Task Schedule
+Run Script Task Schedule
   
       Create New Task
       Point at .bat file
       Triggering
          On Demand
          Scheduled
+Run Multiple suite
+
+    robot -d path(เก็บ results log) path(Test result) ->จะ run ทุกไฟล์ .robt 
+   Ex.->robot -d results tests
